@@ -42,7 +42,7 @@ if (window.innerWidth > 900 && !check){
   contactUsBox.onmouseout = function(){
     document.getElementById('contact-us').style.backgroundImage = "url('images/contact-us-background.jpg')";
   };
-}else if (window.innerWidth < 900){
+}else if (window.innerWidth < 900 || check){
   document.getElementById('custom-theme').style.backgroundImage = "url('images/custom-theme-box-background-mobile.jpg')";
   document.getElementById('contact-us').style.backgroundImage = "url('images/contact-us-background-mobile.jpg')";
   document.getElementById('testimonials').style.backgroundImage = "url('images/testimonials-background-mobile.jpg')";
