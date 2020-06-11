@@ -1,0 +1,254 @@
+html{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /*background-image: url("backgroundimage.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;*/
+  font-family: 'Work Sans';
+}
+
+#header{
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  border-top: 0px solid white;
+  font-family: Helvetica;
+  display: flex;
+  flex: 1 1 50px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.82);
+  align-items: center;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  z-index: 9999;
+}
+
+
+p{
+  text-align: center;
+  width: 10px;
+}
+
+#header img{
+  max-width: 40px;
+  padding: 0 20px;
+}
+
+.home-element1{
+  border-top: 35px solid white;
+  text-align: center;
+  color: white;
+  background-color: #1c1c1c;
+  width: 100%;
+  left: 0;
+  height: 600px;
+  z-index: 1;
+  background-image: url('images/backgroundimage1.jpg');
+  background-size: cover;
+  padding: 100px 20px 0 20px;
+  margin-left: -20px;
+}
+
+.home-element1 a{
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #1c74ff;
+}
+
+.home-container2{
+  margin: 10px auto;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.home-element2{
+  min-width: 850px;
+  height: 400px;
+  padding: 0 30px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+  background-image: linear-gradient(45deg, #fafafa, #eaeaea 40%, #fafafa 60%);
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.home-element2:hover{
+  transform: scale(1.01);
+  background-color: #e0e0e0;
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.home-element-header{
+  padding: 6px;
+  width: 100%;
+}
+
+.home-element-body{
+  background-color: #f0f0f0;
+  padding: 10px 30px;
+  margin-left: -30px;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.home-element-footer{
+  width: 100%;
+  text-align: right;
+  color: #4194fa;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 12px;
+}
+
+#custom-theme{
+  background-image: url('images/custom-theme-box-background.jpg');
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+#custom-theme:hover{
+  background-image: url('images/custom-theme-box-background-dark.jpg');
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+#custom-site{
+  background-image: url('images/premade-theme-box-background.jpg');
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+#custom-site:hover{
+  background-image: url('images/premade-theme-box-background-dark.jpg');
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+#contact-us{
+  background-image: url("images/contact-us-background.jpg");
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+#contact-us:hover{
+  background-image: url("images/contact-us-background-dark.jpg");
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+#testimonials{
+  background-image: url("images/testimonials-background.jpg");
+  background-position: center;
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+#testimonials:hover{
+  background-image: url("images/testimonials-background-dark.jpg");
+  background-position: center;
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.footer{
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid #b0b0b0;
+  color: #b0b0b0;
+  font-size: 10px;
+  background-color: #f0f0f0;
+}
+
+#footerimg{
+  max-width: 80px;
+  margin: 15px auto;
+}
+
+@media only screen and (max-width: 900px) and (orientation: portrait){
+  .home-element2{
+    min-width: 300px;
+    height: 400px;
+  }
+
+  #header{
+   justify-content: center;
+  }
+
+  #testimonials{
+    background-image: url("images/testimonials-background-mobile.jpg");
+    background-position: center bottom;
+  }
+
+  #testimonials:hover{
+    background-image: url("images/testimonials-background-mobile.jpg");
+  }
+
+  #contact-us{
+    background-image: url("images/contact-us-background-mobile.jpg");
+    background-position: center bottom;
+  }
+
+  #contact-us:hover{
+    background-image: url("images/contact-us-background-mobile.jpg");
+  }
+
+  #custom-site{
+    background-image: url('images/premade-theme-box-background-dark.jpg');
+    background-position: center bottom;
+  }
+
+  #custom-site:hover{
+    background-image: url('images/premade-theme-box-background-dark.jpg');
+  }
+
+  #custom-theme{
+    background-image: url('images/custom-theme-box-background-mobile.jpg');
+    background-position: center center;
+  }
+
+  #custom-theme:hover{
+    background-image: url('images/custom-theme-box-background-mobile.jpg');
+  }
+
+  .home-element2{
+    background-color: #e0e0e0;
+  }
+}
