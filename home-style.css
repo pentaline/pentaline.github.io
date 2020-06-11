@@ -251,4 +251,12 @@ p{
   .home-element2{
     background-color: #e0e0e0;
   }
+
+  #header img{
+    max-width: 80px;
+    padding: 0 20px;
+  }
+
+  .home-element1{
+    border-top: 75px solid white;
 }
